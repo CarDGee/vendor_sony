@@ -54,6 +54,9 @@ PRODUCT_PACKAGES += \
 	venus_b04 \
 	venus_mbn \
 	venus_mdt \
+	WCNSS_cfg \
+	WCNSS_qcom_cfg \
+	WCNSS_qcom_wlan_nv \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \
