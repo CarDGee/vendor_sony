@@ -16,4 +16,12 @@ PRODUCT_PACKAGES += \
 	hci_qcomm_init \
 	sensord \
 	sensors.tulip \
-	libbtnv
+	libbtnv \
+	libta \
+	libacdb-fts \
+	libacdbloader \
+	libacdbmapper \
+	libacdbrtac \
+	libqcbassboost \
+	libqcreverb \
+	libqcvirt
