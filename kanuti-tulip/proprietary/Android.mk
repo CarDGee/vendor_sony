@@ -80,30 +80,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
 
-
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libta
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libta.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libta
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib64/libta.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
-include $(BUILD_PREBUILT)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := libacdb-fts
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -195,7 +171,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqcbassboost
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libqcbassboost.so
+LOCAL_SRC_FILES := vendor/lib/soundfxlibqcbassboost.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -205,7 +181,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqcreverb
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libqcreverb.so
+LOCAL_SRC_FILES := vendor/lib/soundfx/libqcreverb.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -215,7 +191,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqcvirt
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libqcvirt.so
+LOCAL_SRC_FILES := vendor/lib/soundfx/libqcvirt.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
